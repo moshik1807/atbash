@@ -1,7 +1,4 @@
-
-﻿// See https://aka.ms/new-console-template for more information
-
-
+using System.Diagnostics.Tracing;
 using SeriesAnalyzer;
 
 namespace SeriesAnalyzer
@@ -29,19 +26,23 @@ namespace SeriesAnalyzer
             }
 
 
-            ﻿int SearchProblemticWords(string LisztDeciphered)
+            int SearchProblemticWords(string LisztDeciphered)
             {
-                char[] delimiterChars = [' ',',',':','-','.','\t'];
-                string [] WordsList = LisztDeciphered.Split(delimiterChars);
-                
+                int counter = 0;
+                string str = "bomb, nukhba, fighter, rocket, secret";
+                char[] delimiterChars = [' ', ',', ':', '-', '.', '/', '!', '?'];
+                string[] WordsList = LisztDeciphered.Split(delimiterChars);
+                foreach (var word in WordsList)
+                {
+                    if (str.Contains(word))
+                    {
+                        counter += 1;
+                    }
+                }
+                return counter;
             }
-
-
 
         }
     }
 }
-
-
-
 
