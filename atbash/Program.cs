@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int SearchProblemticWords(string LisztDeciphered)
+{
+    char[] delimiterChars = [' ',',',':','-','.','\t'];
+    string [] WordsList = LisztDeciphered.Split(delimiterChars);
+       
+}
