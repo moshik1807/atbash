@@ -1,8 +1,5 @@
-
-// See https://aka.ms/new-console-template for more information
-
-
 using System.Security.Cryptography.X509Certificates;
+using System.Diagnostics.Tracing;
 using SeriesAnalyzer;
 
 namespace SeriesAnalyzer
@@ -68,20 +65,41 @@ namespace SeriesAnalyzer
             }
 
 
-            // ﻿void printMessage(int point, string message)
-            // {
-
-            // }
-
-
-            // ﻿int SearchProblemticWords(string LisztDeciphered)
-            // {
-            //     char[] delimiterChars = [' ',',',':','-','.','\t'];
-            //     string [] WordsList = LisztDeciphered.Split(delimiterChars);
-                
-            // }
-            //
-            //
+            int SearchProblemticWords(string LisztDeciphered)
+            {
+                int counter = 0;
+                string str = "bomb, nukhba, fighter, rocket, secret";
+                char[] delimiterChars = [' ', ',', ':', '-', '.', '/', '!', '?'];
+                string[] WordsList = LisztDeciphered.Split(delimiterChars);
+                foreach (var word in WordsList)
+                {
+                    if (str.Contains(word))
+                    {
+                        counter += 1;
+                    }
+                }
+                return counter;
+            }
+          
+          void printMessage()
+          {
+              int point = 5;
+              string message = "message";
+              Console.WriteLine($"The message is:\n{message}\n")
+              if (point > 0 && point < 6)
+              {
+                  Console.WriteLine($"WARNING!WARNING!WARNING!\nThe number of point:\n{point}\n");
+              }
+              if (point > 5 && point < 11)
+              {
+                  Console.WriteLine($"DANGER!DANGER!DANGER!\nThe number of point:\n{point}\n");
+              }
+              if (point > 10 && point < 16)
+              {
+                  Console.WriteLine($"ULTRA ALERT!ULTRA ALERT!ULTRA ALERT!\nThe number of point:\n{point}\n");
+              }
+          }
+          printMessage();
 
 
         }
@@ -89,7 +107,5 @@ namespace SeriesAnalyzer
 
     }
 }
-
-
 
 

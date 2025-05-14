@@ -1,0 +1,15 @@
+C:\Users\משתמש\Desktop\atbash\atbash\bin\Debug\net8.0\atbash.exe
+C:\Users\משתמש\Desktop\atbash\atbash\bin\Debug\net8.0\atbash.deps.json
+C:\Users\משתמש\Desktop\atbash\atbash\bin\Debug\net8.0\atbash.runtimeconfig.json
+C:\Users\משתמש\Desktop\atbash\atbash\bin\Debug\net8.0\atbash.dll
+C:\Users\משתמש\Desktop\atbash\atbash\bin\Debug\net8.0\atbash.pdb
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.AssemblyInfoInputs.cache
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.AssemblyInfo.cs
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.sourcelink.json
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.dll
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\refint\atbash.dll
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.pdb
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\atbash.genruntimeconfig.cache
+C:\Users\משתמש\Desktop\atbash\atbash\obj\Debug\net8.0\ref\atbash.dll
