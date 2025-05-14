@@ -1,4 +1,17 @@
 
+﻿// See https://aka.ms/new-console-template for more information
+
+string CipherKey(string EncryptedText)
+{
+
+}
+
+char DecodingCode(char signal)
+{
+    
+}
+
+
 ﻿void printMessage(int point, string message)
 {
 
@@ -11,6 +24,7 @@
     string [] WordsList = LisztDeciphered.Split(delimiterChars);
        
 }
+
 
 
 
