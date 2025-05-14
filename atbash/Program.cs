@@ -1,28 +1,45 @@
 
 ﻿// See https://aka.ms/new-console-template for more information
 
-string CipherKey(string EncryptedText)
+
+using SeriesAnalyzer;
+
+namespace SeriesAnalyzer
 {
-
-}
-
-char DecodingCode(char signal)
-{
-    
-}
+    class program()
+    {
+        static void Main(string[] args)
+        {
 
 
-﻿void printMessage(int point, string message)
-{
+            string CipherKey(string EncryptedText)
+            {
 
-}
+            }
+
+            char DecodingCode(char signal)
+            {
+                
+            }
 
 
-﻿int SearchProblemticWords(string LisztDeciphered)
-{
-    char[] delimiterChars = [' ',',',':','-','.','\t'];
-    string [] WordsList = LisztDeciphered.Split(delimiterChars);
-       
+            ﻿void printMessage(int point, string message)
+            {
+
+            }
+
+
+            ﻿int SearchProblemticWords(string LisztDeciphered)
+            {
+                char[] delimiterChars = [' ',',',':','-','.','\t'];
+                string [] WordsList = LisztDeciphered.Split(delimiterChars);
+                
+            }
+
+
+
+        }
+    }
 }
 
 
