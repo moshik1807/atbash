@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("atbash")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3c63f6b93a5da8b6b0da143e6a9792b4bca2d5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+235703cfc54130c1e6c1c6783ac83f3d53fca2ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("atbash")]
 [assembly: System.Reflection.AssemblyTitleAttribute("atbash")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
