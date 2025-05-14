@@ -1,8 +1,5 @@
-
-// See https://aka.ms/new-console-template for more information
-
-
 using System.Security.Cryptography.X509Certificates;
+using System.Diagnostics.Tracing;
 using SeriesAnalyzer;
 
 namespace SeriesAnalyzer
@@ -68,18 +65,21 @@ namespace SeriesAnalyzer
             }
 
 
-            // ﻿void printMessage(int point, string message)
-            // {
-
-            // }
-
-
-            // ﻿int SearchProblemticWords(string LisztDeciphered)
-            // {
-            //     char[] delimiterChars = [' ',',',':','-','.','\t'];
-            //     string [] WordsList = LisztDeciphered.Split(delimiterChars);
-                
-            // }
+            int SearchProblemticWords(string LisztDeciphered)
+            {
+                int counter = 0;
+                string str = "bomb, nukhba, fighter, rocket, secret";
+                char[] delimiterChars = [' ', ',', ':', '-', '.', '/', '!', '?'];
+                string[] WordsList = LisztDeciphered.Split(delimiterChars);
+                foreach (var word in WordsList)
+                {
+                    if (str.Contains(word))
+                    {
+                        counter += 1;
+                    }
+                }
+                return counter;
+            }
 
 
         }
@@ -87,7 +87,4 @@ namespace SeriesAnalyzer
 
     }
 }
-
-
-
 
