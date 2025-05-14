@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\משתמש\\Desktop\\atbash\\atbash\\atbash.csproj": {}
+    "C:\\MyComputer\\Training\\Study_materials\\Week_2\\Lesson_4\\atbash\\atbash\\atbash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\משתמש\\Desktop\\atbash\\atbash\\atbash.csproj": {
+    "C:\\MyComputer\\Training\\Study_materials\\Week_2\\Lesson_4\\atbash\\atbash\\atbash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\משתמש\\Desktop\\atbash\\atbash\\atbash.csproj",
+        "projectUniqueName": "C:\\MyComputer\\Training\\Study_materials\\Week_2\\Lesson_4\\atbash\\atbash\\atbash.csproj",
         "projectName": "atbash",
-        "projectPath": "C:\\Users\\משתמש\\Desktop\\atbash\\atbash\\atbash.csproj",
-        "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\משתמש\\Desktop\\atbash\\atbash\\obj\\",
+        "projectPath": "C:\\MyComputer\\Training\\Study_materials\\Week_2\\Lesson_4\\atbash\\atbash\\atbash.csproj",
+        "packagesPath": "C:\\Users\\danhe\\.nuget\\packages\\",
+        "outputPath": "C:\\MyComputer\\Training\\Study_materials\\Week_2\\Lesson_4\\atbash\\atbash\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

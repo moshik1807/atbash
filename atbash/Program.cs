@@ -83,9 +83,9 @@ namespace SeriesAnalyzer
           
           void printMessage()
           {
-              int point = SearchProblemticWords();
+              int point = 5;
               string message = "message";
-              Console.WriteLine($"The message is:\n{message}\n")
+              Console.WriteLine($"The message is:\n{message}\n");
               if (point > 0 && point < 6)
               {
                   Console.WriteLine($"WARNING!WARNING!WARNING!\nThe number of point:\n{point}\n");
