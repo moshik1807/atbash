@@ -83,9 +83,13 @@ namespace SeriesAnalyzer
           
           void printMessage()
           {
-              int point = 5;
-              string message = "message";
+              int point = SearchProblemticWords();
+              string message = CipherKey(encrypted);
               Console.WriteLine($"The message is:\n{message}\n");
+              if (point == 0)
+              {
+                  Console.WriteLine($"The message does not contain any dangerous words at all.\nThe number of point:\n{point}\n");
+              }
               if (point > 0 && point < 6)
               {
                   Console.WriteLine($"WARNING!WARNING!WARNING!\nThe number of point:\n{point}\n");
@@ -97,6 +101,10 @@ namespace SeriesAnalyzer
               if (point > 10 && point < 16)
               {
                   Console.WriteLine($"ULTRA ALERT!ULTRA ALERT!ULTRA ALERT!\nThe number of point:\n{point}\n");
+              }
+              else
+              {
+                  Console.WriteLine($"The message contains a large amount of dangerous words.\nThe number of point:\n{point}\n");
               }
           }
           printMessage();
